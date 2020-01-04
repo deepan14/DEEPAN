@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class homepageobject extends Basepage{
 	@FindBy(id="username")
-	private WebElement adactinid;
+	private WebElement adactinid23;
 	
 	@FindBy(id="password")
 	private WebElement adactinpassword;
