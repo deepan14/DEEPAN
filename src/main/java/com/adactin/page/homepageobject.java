@@ -9,11 +9,11 @@ public class homepageobject extends Basepage{
 
 	private WebElement adactinid23;
 
-	private WebElement adactinid123;
+	private WebElement adactinid;
 
 	
 	@FindBy(id="password")
-	private WebElement adactinpassword;
+	private WebElement adactinpassworddd;
 	
 	@FindBy(id="login")
 	private WebElement loginclick;

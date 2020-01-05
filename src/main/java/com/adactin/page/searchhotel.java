@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 public class searchhotel extends Basepage {
 
 	@FindBy(name="location")
-	private WebElement location;
+	private WebElement locationnn;
 	
 	@FindBy(name="hotels")
 	private WebElement hotel ;
