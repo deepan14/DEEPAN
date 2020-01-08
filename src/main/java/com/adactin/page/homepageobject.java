@@ -13,7 +13,7 @@ public class homepageobject extends Basepage{
 
 	
 	@FindBy(id="password")
-	private WebElement adactinpassworddd;
+	private WebElement adactinpassword;
 	
 	@FindBy(id="login")
 	private WebElement loginclick;

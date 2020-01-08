@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.adactin.test.homepagetest">
+        <methods>
+          <include name="dd"/>
+        </methods>
+      </class> <!-- com.adactin.test.homepagetest -->
+      <class name="com.adactin.test.selecttest">
+        <methods>
+          <include name="dd"/>
+          <include name="verifysearchhotel"/>
+          <include name="verifyselecttest"/>
+        </methods>
+      </class> <!-- com.adactin.test.selecttest -->
+      <class name="com.adactin.test.searchtest">
+        <methods>
+          <include name="dd"/>
+          <include name="verifysearchhotel"/>
+        </methods>
+      </class> <!-- com.adactin.test.searchtest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
